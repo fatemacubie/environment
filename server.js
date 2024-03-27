@@ -9,7 +9,7 @@ const passport = require('passport');
 const session = require('express-session');
 const logger = require('./config/winston');
 const expressLogger = require('./middleware/expressLogger');
-const ensureRole = require('./middleware/ensureRole');
+// const ensureRole = require('./middleware/ensureRole');
 const Routes = require('./routes');
 
 // Create an instance of the Express application

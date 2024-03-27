@@ -1,4 +1,4 @@
-const { errorMessages } = require('../config/messages');
+const { errorMessages } = require('../config/message');
 
 module.exports = function ensureRole(role) {
     return (req, res, next) => {
